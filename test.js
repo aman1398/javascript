@@ -39,9 +39,20 @@ let namea="Aman"
 //        Object  =>  object
 
 
+// const num= new Number(50087235613894719)
+// console.log(num.toFixed(3))
+// console.log(num.toExponential(3))
+// console.log(num.toLocaleString("en-IN"))
+// console.log(num.toPrecision(3))
+
+
+// const min=10
+// const max=20
+// console.log(Math.floor(Math.random()*(max-min))+min);
+// // console.log(Math.random()*(max-min));
 
 
 
-
+console.log(Temporal.Now.instant());
 
 
