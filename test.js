@@ -51,8 +51,14 @@ let namea="Aman"
 // console.log(Math.floor(Math.random()*(max-min))+min);
 // // console.log(Math.random()*(max-min));
 
+let tarikh=new Date()
+// console.log(tarikh.toDateString());
+// console.log(tarikh.toISOString());
+// console.log(tarikh.toJSON());
+// console.log(tarikh.toLocaleDateString("en-IN"));
+// console.log(tarikh.toLocaleTimeString());
+// console.log(tarikh.toTimeString());
+// console.log(tarikh);
 
-
-console.log(Temporal.Now.instant());
-
-
+let newTarikh = new Date(2025, 3, 13)
+console.log(newTarikh.toDateString());
