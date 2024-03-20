@@ -60,5 +60,40 @@ let tarikh=new Date()
 // console.log(tarikh.toTimeString());
 // console.log(tarikh);
 
-let newTarikh = new Date(2025, 3, 13)
-console.log(newTarikh.toDateString());
+// let newTarikh = new Date(2025, 3, 13)
+// console.log(newTarikh.toDateString());
+
+
+
+// ///// Arrays
+
+
+const arry1 = [0,1,3,4,5, 6,7,8,9]
+const arry2 = [0,1,3,4,5, 6,7,8,9]
+
+
+// arry1.pop()
+// console.log(arry1);
+// shift and pop remove value from start and end respictively
+// unshift and push add velue to start and end respictively
+
+// console.log(arry1);
+// const arry3 = arry1.slice(1,4)
+// console.log(arry3);
+// console.log(arry1);
+
+// console.log(arry2);
+// const arry4 = arry2.splice(1,4)
+// console.log(arry4);
+// console.log(arry2);
+
+// console.log(arry1.concat(arry2));
+// const arry3= [...arry1, ...arry2]
+// console.log(arry3);
+
+// const arry4=[1,2,4,[2,4,5,[4,5,6],4,5,[55,78]]]
+// const arry5=arry4.flat(Infinity)
+// console.log(arry5);
+
+console.log(Array.isArray("Aman"))
+console.log(Array.from("Aman"))
